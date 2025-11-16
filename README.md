@@ -37,3 +37,11 @@ SELECT Region, SUM(Total_Revenue) AS Total_Sales
 FROM sales_data
 GROUP BY Region
 ORDER BY Total_Sales DESC;
+
+###Top 10 products
+
+SELECT Product_Name, SUM(Total_Revenue) AS Revenue
+FROM sales_data
+GROUP BY Product_Name
+ORDER BY Revenue DESC
+LIMIT 10;
