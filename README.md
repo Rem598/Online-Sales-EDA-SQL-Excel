@@ -54,14 +54,16 @@ FROM sales_data
 GROUP BY Month
 ORDER BY Month;
 ```
-📊 Key Visualizations
+## 📊 Key Visualizations
 The images below summarize the core findings from the analysis.
 
-Total Sales by Region [![Sales by Region](https://github.com/Rem598/Online-Sales-EDA-SQL-Excel/blob/main/Revenue%20over%20Time.jpg)
+Total Sales by Region ![Sales by Region](https://github.com/Rem598/Online-Sales-EDA-SQL-Excel/blob/main/Total%20Sales%20by%20region.jpg)
 
-Revenue by Product Category
-Revenue Over Time
-Revenue by Payment Method
+Revenue by Product Category ![Revenue by Category](https://github.com/Rem598/Online-Sales-EDA-SQL-Excel/blob/main/Total%20Revenue%20by%20category.jpg)
+
+Revenue Over Time ![Revenue over Time](https://github.com/Rem598/Online-Sales-EDA-SQL-Excel/blob/main/Revenue%20over%20Time.jpg)
+
+Revenue by Payment Method ![Revenue by Payment Method](https://github.com/Rem598/Online-Sales-EDA-SQL-Excel/blob/main/Revenue%20by%20payment%20method.jpg)
 
 💡 Actionable Insights
 Based on the analysis, here are the key findings:
