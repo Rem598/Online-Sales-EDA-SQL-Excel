@@ -57,7 +57,8 @@ ORDER BY Month;
 📊 Key Visualizations
 The images below summarize the core findings from the analysis.
 
-Total Sales by Region
+Total Sales by Region ![Sales by Region](Total-sales-by-region.jpg)
+
 Revenue by Product Category
 Revenue Over Time
 Revenue by Payment Method
