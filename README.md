@@ -31,17 +31,44 @@ The dataset covers a year of transactions and includes key metrics like:
 
 These queries formed the foundation for the business insights.
 
-### Total Sales by Region
+
 ```sql
+## Total Sales by Region
 SELECT Region, SUM(Total_Revenue) AS Total_Sales
 FROM sales_data
 GROUP BY Region
 ORDER BY Total_Sales DESC;
 
-###Top 10 products
+## Top 10 products
 
 SELECT Product_Name, SUM(Total_Revenue) AS Revenue
 FROM sales_data
 GROUP BY Product_Name
 ORDER BY Revenue DESC
 LIMIT 10;
+
+## Sales Trends Over Time (Monthly)
+
+SELECT DATE_FORMAT(Date, '%Y-%m') AS Month, SUM(Total_Revenue) AS Monthly_Sales
+FROM sales_data
+GROUP BY Month
+ORDER BY Month;
+```
+📊 Key Visualizations
+The images below summarize the core findings from the analysis.
+
+Total Sales by Region
+Revenue by Product Category
+Revenue Over Time
+Revenue by Payment Method
+
+💡 Actionable Insights
+Based on the analysis, here are the key findings:
+
+- Regional Focus: North America is the dominant region for revenue, suggesting marketing budgets should be allocated to capitalize on this lead.
+
+- Product Strategy: Electronics massively outperform all other product categories; further analysis on inventory and pricing for this category is recommended.
+
+- Seasonal Trends: April is the clear peak month for sales, indicating a potential seasonal event or marketing campaign success that should be replicated.
+
+- Payment Gateway: The vast majority of purchases are made via Credit Card, confirming the reliability of existing payment infrastructure.
