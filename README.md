@@ -57,7 +57,7 @@ ORDER BY Month;
 📊 Key Visualizations
 The images below summarize the core findings from the analysis.
 
-Total Sales by Region ![Sales by Region](Total-sales-by-region.jpg)
+Total Sales by Region [![Sales by Region](https://github.com/Rem598/Online-Sales-EDA-SQL-Excel/blob/main/Revenue%20over%20Time.jpg)
 
 Revenue by Product Category
 Revenue Over Time
