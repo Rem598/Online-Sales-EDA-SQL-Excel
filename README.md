@@ -80,7 +80,8 @@ Revenue Over Time
 Revenue by Payment Method  
 ![Revenue by Payment Method](https://github.com/Rem598/Online-Sales-EDA-SQL-Excel/blob/main/Revenue%20by%20payment%20method.jpg)
 
-💡 Actionable Insights
+💡 **Actionable Insights**
+
 Based on the analysis, here are the key findings:
 
 - Regional Focus: North America is the dominant region for revenue, suggesting marketing budgets should be allocated to capitalize on this lead.
